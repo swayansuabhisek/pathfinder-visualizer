@@ -22,15 +22,15 @@ let speeds = {
 let mazes = {
     googleEarth: {key: 1, name: "Google Earth"},
     mazeWall: {key: 2, name: "Maze (Wall)"},
-    // mazeWeight: {key: 3, name: "Maze (Weight)"},
+    mazeWeight: {key: 3, name: "Maze (Weight)"},
     antiMazeWall: {key: 4, name: "Anti-Maze (Wall)"},
-    // antiMazeWeight: {key: 5, name: "Anti-Maze (Weight)"},
+    antiMazeWeight: {key: 5, name: "Anti-Maze (Weight)"},
     randomObstacle: {key: 6, name: "Random Obstacles (Wall)"},
-    // randomWeights: {key: 7, name: "Random Obstacles (Weight)"},
+    randomWeights: {key: 7, name: "Random Obstacles (Weight)"},
     straightLine: {key: 8, name: "Straight Lines (Wall)"},
-    // straightWeightLine: {key: 9, name: "Straight Lines (Weight)"},
+    straightWeightLine: {key: 9, name: "Straight Lines (Weight)"},
     simpleStair: {key: 10, name: "Simple Stair Pattern (Wall)"},
-    // simpleWeightStair: {key: 11, name: "Simple Stair Pattern (Weight)"},
+    simpleWeightStair: {key: 11, name: "Simple Stair Pattern (Weight)"},
     none: {key: 12, name: "None"},
 }
 let menuSelected = menus.wall
